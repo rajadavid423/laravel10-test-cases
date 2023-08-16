@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\API\ProductController;
 use App\Http\Controllers\API\UserAuthController;
 use App\Http\Controllers\API\UserController;
 use Illuminate\Support\Facades\Route;
@@ -26,3 +27,5 @@ Route::middleware('auth:sanctum')->group(function () {
 
     Route::apiResource('user', UserController::class);
 });
+
+Route::apiResource('products', ProductController::class);
