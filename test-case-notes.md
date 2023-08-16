@@ -13,4 +13,4 @@
 8. Model and route based test case
 9. Disadvantage of assertSee function 
 10. For repeated code use setup method
-11. Code Coverage
+11. Code Coverage - This feature requires Xdebug or PCOV.
